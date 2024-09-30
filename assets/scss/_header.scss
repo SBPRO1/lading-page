@@ -1,0 +1,41 @@
+header{
+    position: absolute;
+    align-items: center;
+    width: 1760px;
+    height: 25px;
+    color: #fff;
+    z-index: 11111;
+    margin: 80px 64px;
+    display: flex;
+    justify-content: space-between;
+
+    nav{
+        display: flex;
+        font-size: 18px;
+        font-family: "gilroy";
+        .nav-el{
+            margin: 0 30px;
+            font-weight: bold;
+        }
+    };
+}
+.logo{
+    font-size: 32px;
+    font-weight: bold;
+    font-family: "Chronicle Display Roman";
+}
+.account{
+    font-size: 18px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+}
+.icon{
+    background: url("../img/cart.svg");
+    width: 24px;
+    height: 24px;
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-blend-mode: multiply;
+    margin: 0 2px;
+}

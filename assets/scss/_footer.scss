@@ -1,0 +1,37 @@
+.footer{
+    color: #fff;
+    width: 1462px;
+    position: relative;
+    margin: 0 auto;
+    top: 250px;
+
+    .table{
+        display: grid;
+        align-items: center;
+        grid-template-columns: 59% auto auto ;
+
+        li{
+            line-height: 40px;
+        }
+        .title-item{
+            font-size: 24px;
+            color: #fbd784;
+        }
+        .item-two{
+            font-size: 18px;
+            margin-top: 134px;
+        }
+        .item-three{
+            font-size: 18px;
+            margin-top: 55px;
+        }
+    }
+    .logo{
+        p{
+            font-size: 18px;
+        }
+    }
+}
+li{
+    list-style: none;
+}

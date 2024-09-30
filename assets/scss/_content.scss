@@ -1,0 +1,102 @@
+main{
+    width: 100%;
+    height: 100%;
+    background: #0B1D26;
+    
+    .content{
+        width: 1462px;
+        height: 100%;
+        margin: -300px auto;
+        position: relative;
+    }
+    .section{
+        width: 1462px;
+        height: 720px;
+        color: #fff;
+        margin: 200px auto;
+        position: relative;
+        z-index: 1111;
+        display: flex;
+
+
+        .number-section{
+            position: relative;
+            font-size: 240px;
+            z-index: 1;
+            font-weight: bold;
+            opacity: .10;
+            margin-left: 20px;
+        }
+        .left-section{
+            width: 70%;
+            height: 100%;
+            position: relative;
+            z-index: 11;
+
+            .left-section-body{
+                position: relative;
+                max-width: 632px;
+                top: 13%;
+                left: -14.7%;
+                // transform: rotate(-100%,-100%);
+                .sectiom-title{
+                    color: #FBD784;
+                    margin: 25px 104px;
+                    font-size: 18px;
+
+                    &::before{
+                        content:' ';
+                        width: 72px;
+                        height: 2px;
+                        position: absolute;
+                        margin-left: -100px;
+                        margin-top: 8px;
+                        background: #FBD784;
+                    }
+                }
+                .section-head {
+                    font-size: 64px;
+                    margin: 25px 0;
+                    font-family: "Chronicle Display Roman";
+                }
+                .section-body {
+                    font-size: 18px;
+                    margin: 25px 0;
+                }
+                .next {
+                    color: #FBD784;
+                    margin: 25px 0;
+                    font-size: 18px;
+                    display: flex;
+            
+                }
+                .next-icon{
+                    background: url("../img/next.svg");
+                    width: 24px;
+                    margin: 4px 24px;
+                    height: 16px;
+                    background-size: cover; 
+                    background-repeat: no-repeat;
+                    background-blend-mode: multiply;
+                }
+            }
+        }
+        .right-section{
+            width: 40%;
+            height: 100%;
+
+            img{
+                width: 566px;
+                height: 100%;
+            }
+        }
+    }
+}
+.left-section-img{
+    position: relative;
+    left: -240px;
+}
+.number-section-two{
+    position: relative;
+    left: 610px;
+}

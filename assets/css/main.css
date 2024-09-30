@@ -1,0 +1,338 @@
+header {
+  position: absolute;
+  align-items: center;
+  width: 1760px;
+  height: 25px;
+  color: #fff;
+  z-index: 11111;
+  margin: 80px 64px;
+  display: flex;
+  justify-content: space-between;
+}
+header nav {
+  display: flex;
+  font-size: 18px;
+  font-family: "gilroy";
+}
+header nav .nav-el {
+  margin: 0 30px;
+  font-weight: bold;
+}
+
+.logo {
+  font-size: 32px;
+  font-weight: bold;
+  font-family: "Chronicle Display Roman";
+}
+
+.account {
+  font-size: 18px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+}
+
+.icon {
+  background: url("../img/cart.svg");
+  width: 24px;
+  height: 24px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-blend-mode: multiply;
+  margin: 0 2px;
+}
+
+main {
+  width: 100%;
+  height: 100%;
+  background: #0B1D26;
+}
+main .content {
+  width: 1462px;
+  height: 100%;
+  margin: -300px auto;
+  position: relative;
+}
+main .section {
+  width: 1462px;
+  height: 720px;
+  color: #fff;
+  margin: 200px auto;
+  position: relative;
+  z-index: 1111;
+  display: flex;
+}
+main .section .number-section {
+  position: relative;
+  font-size: 240px;
+  z-index: 1;
+  font-weight: bold;
+  opacity: 0.1;
+  margin-left: 20px;
+}
+main .section .left-section {
+  width: 70%;
+  height: 100%;
+  position: relative;
+  z-index: 11;
+}
+main .section .left-section .left-section-body {
+  position: relative;
+  max-width: 632px;
+  top: 13%;
+  left: -14.7%;
+}
+main .section .left-section .left-section-body .sectiom-title {
+  color: #FBD784;
+  margin: 25px 104px;
+  font-size: 18px;
+}
+main .section .left-section .left-section-body .sectiom-title::before {
+  content: " ";
+  width: 72px;
+  height: 2px;
+  position: absolute;
+  margin-left: -100px;
+  margin-top: 8px;
+  background: #FBD784;
+}
+main .section .left-section .left-section-body .section-head {
+  font-size: 64px;
+  margin: 25px 0;
+  font-family: "Chronicle Display Roman";
+}
+main .section .left-section .left-section-body .section-body {
+  font-size: 18px;
+  margin: 25px 0;
+}
+main .section .left-section .left-section-body .next {
+  color: #FBD784;
+  margin: 25px 0;
+  font-size: 18px;
+  display: flex;
+}
+main .section .left-section .left-section-body .next-icon {
+  background: url("../img/next.svg");
+  width: 24px;
+  margin: 4px 24px;
+  height: 16px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-blend-mode: multiply;
+}
+main .section .right-section {
+  width: 40%;
+  height: 100%;
+}
+main .section .right-section img {
+  width: 566px;
+  height: 100%;
+}
+
+.left-section-img {
+  position: relative;
+  left: -240px;
+}
+
+.number-section-two {
+  position: relative;
+  left: 610px;
+}
+
+.footer {
+  color: #fff;
+  width: 1462px;
+  position: relative;
+  margin: 0 auto;
+  top: 250px;
+}
+.footer .table {
+  display: grid;
+  align-items: center;
+  grid-template-columns: 59% auto auto;
+}
+.footer .table li {
+  line-height: 40px;
+}
+.footer .table .title-item {
+  font-size: 24px;
+  color: #fbd784;
+}
+.footer .table .item-two {
+  font-size: 18px;
+  margin-top: 134px;
+}
+.footer .table .item-three {
+  font-size: 18px;
+  margin-top: 55px;
+}
+.footer .logo p {
+  font-size: 18px;
+}
+
+li {
+  list-style: none;
+}
+
+@font-face {
+  font-family: "Gilroy";
+  src: url("../font/Gilroy-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Chronicle Display Roman";
+  src: url("../font/Chronicle Display Roman.otf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+body {
+  overflow-x: hidden;
+  background: #0B1D26;
+  font-family: "gilroy";
+}
+
+::-webkit-scrollbar {
+  width: 0;
+}
+
+.background {
+  max-width: 1920px;
+  height: 1523px;
+  background: url("../img/hg.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-blend-mode: multiply;
+  z-index: 1;
+}
+.background::after {
+  content: "";
+  width: 1920px;
+  height: 1422px;
+  left: 0;
+  top: 461px;
+  background: url("../img/mg.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-blend-mode: multiply;
+  position: absolute;
+  z-index: 11;
+}
+.background::before {
+  content: "";
+  width: 1920px;
+  height: 926px;
+  top: 768px;
+  background: url("../img/vg.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-blend-mode: multiply;
+  position: absolute;
+  z-index: 111;
+}
+.background .bg::before {
+  content: " ";
+  width: 1920px;
+  height: 1200px;
+  top: 0px;
+  background: url("../img/bghero.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-blend-mode: multiply;
+  position: absolute;
+  z-index: 1111;
+}
+.background .bg::after {
+  content: " ";
+  width: 1920px;
+  height: 700px;
+  top: 1200px;
+  background: url("../img/bgcontent.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-blend-mode: multiply;
+  position: absolute;
+  z-index: 1111;
+}
+.background .banner {
+  color: #fff;
+  max-width: 950px;
+  height: 310px;
+  left: 500px;
+  top: 287px;
+  position: absolute;
+  z-index: 1111;
+  font-family: "Chronicle Display Roman";
+}
+.background .banner .title-banner {
+  color: #FBD784;
+  font-size: 18;
+  font-weight: bold;
+  margin-left: 104px;
+}
+.background .banner .title-banner::before {
+  content: " ";
+  width: 72px;
+  height: 2px;
+  position: absolute;
+  margin-left: -104px;
+  margin-top: 8px;
+  background: #FBD784;
+}
+.background .banner .title-banner-slog {
+  font-size: 88px;
+  margin: 32px 0;
+}
+.background .banner .title-banner-scroll {
+  color: #fff;
+  font-size: 18px;
+  font-weight: bold;
+  text-decoration: none;
+  display: flex;
+}
+.background .banner .title-banner-scroll .icon-scroll {
+  background: url("../img/arrow_downward_24px.svg");
+  width: 16px;
+  height: 24px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-blend-mode: multiply;
+  margin: 0 15px;
+}
+.background .social {
+  position: absolute;
+  font-family: "Gilroy";
+  top: 400px;
+  left: 0px;
+  font-weight: bold;
+  color: #fff;
+  z-index: 1111;
+  display: flex;
+  transform: rotate(90deg);
+}
+.background .social p {
+  font-size: 18px;
+  margin: 24px 0;
+}
+.background .social .ico-inst {
+  background: url("../img/instagram.svg");
+  width: 24px;
+  height: 24px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-blend-mode: multiply;
+  margin: 24px 24px;
+  transform: rotate(-90deg);
+}
+.background .social .ico-twit {
+  transform: rotate(-90deg);
+  background: url("../img/twitter.svg");
+  width: 24px;
+  height: 24px;
+  margin: 24px 0px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-blend-mode: multiply;
+}/*# sourceMappingURL=main.css.map */
